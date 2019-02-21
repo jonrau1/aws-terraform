@@ -1,0 +1,9 @@
+#!/bin/bash
+sudo apt-get update -y
+sudo apt-get install unzip -y
+sudo snap install terraform
+terraform --version
+wget https://inspector-agent.amazonaws.com/linux/latest/install
+sudo bash install
+sudo apt-get update -y
+mkdir terraformproject
