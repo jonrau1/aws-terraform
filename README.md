@@ -1,4 +1,2 @@
-# aws-terraform
-Terraform 'main.tf' references
-Also some CloudFormation
-Maybe .sh bash scripts?
+# ReadMe is Work In Progress
+This will deploy a referential 3-Tier Architecture in a VPC to include a Public (Internet Facing), Private (Behind a NAT Gateway) and RDS DB Subnets. It will populate with EC2 Instances, a MySQL 5.7 Engine RDS Instance and various other supporting services such as PrivateLink VPC Endpoint Interfaces for CloudWatch and SSM as well as IAM Roles and Security Constructs (Network ACLs and Security Groups)
