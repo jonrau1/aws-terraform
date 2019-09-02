@@ -5,9 +5,9 @@ provider "aws" {
 terraform {
     backend "s3" {
       encrypt = true
-      bucket = "mobjaguar-tf-remotes-novamain"
-      dynamodb_table = "mobjaguar-tf-remotes-ddb-novamain"
-      key = "iad/treeteer/terraform.tfstate"
-      region = "us-east-1"
+      bucket = "Your_Bucket"
+      dynamodb_table = "Your_DDB_Table"
+      key = "path/to/terraform.tfstate"
+      region = "REGION"
   }
 }
